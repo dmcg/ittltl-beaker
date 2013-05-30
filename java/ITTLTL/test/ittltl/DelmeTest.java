@@ -8,7 +8,7 @@ public class DelmeTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+    System.out.println("DelmeTest.test");
 	}
 
 }
