@@ -1,0 +1,11 @@
+#! /bin/bash
+
+libs=lib/'*'
+
+if [ $# -lt 1 ]
+then
+  echo "Usage: ./jrun pkg.Class args..."
+  echo "  for JUnit: ./jrun org.junit.runner.JUnitCore pkg.TestClass"
+else
+  sudo java -cp bin:$libs $*
+fi
