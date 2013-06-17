@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class DelmeTest {
+public class DeployTest {
 
 	@Test
 	public void test() {
