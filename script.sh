@@ -8,5 +8,5 @@ echo "It's not yet time to light the lights"
 #./jrun org.junit.runner.JUnitCore ittltl.DeployTest
 
 ### Following fragment shows how to run python
-cd python
-python ittltl/test/deploy_test.py
+#cd python
+#python ittltl/test/deploy_test.py
